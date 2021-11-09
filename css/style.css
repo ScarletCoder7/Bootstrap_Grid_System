@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+.row{
+    margin-bottom: 15px;
+}
+.row > div{
+    padding: 10px;
+    margin-right:auto;
+    margin-left:auto;  
+    /*3rd box will be in center position because of margin-left:auto and margin-right:auto */
+    background-color:bisque;
+    border: 2px dashed red;
+    color:chocolate;
+    float:left;
+}
+p{
+    background-color:chartreuse;
+}
